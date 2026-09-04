@@ -1,0 +1,42 @@
+# 依存関係・ビルド成果物
+node_modules/
+dist/
+build/
+out/
+.next/
+.cache/
+.parcel-cache/
+.turbo/
+
+# 環境変数・シークレット
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Cloudflare / Wrangler
+.wrangler/
+.dev.vars
+wrangler.toml.bak
+
+# ログ・OS一時ファイル
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# エディタ・エージェント
+.claude/
+.vscode/
+.idea/
+
+# 制作用の内部資料（公開リポジトリに含めない）
+exec-*.png
+リサーチ_*.md
+*_カンプ*.png
+*_調査*.md
+*_提案*.pdf
+提案書*.pdf
