@@ -428,7 +428,7 @@ h1,h2,h3{ font-family:var(--serif); font-weight:500; margin:0; }
 .hero__inner{
   max-width:var(--container);
   width:100%;
-  margin:0 auto;
+  margin:0;
   padding:0 var(--pad-x);
   flex:1;
   display:flex;
